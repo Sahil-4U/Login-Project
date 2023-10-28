@@ -6,6 +6,8 @@ import Button from '../components/Button';
 import Icon from '../components/Icons';
 
 function Loginpage() {
+    // For SEO
+    document.title = 'Login';
     // Background color for Icons
     const FacebookBackground =
         "linear-gradient(to right, #0546A0 0%, #0546A0 40%, #663FB6 100%)";
